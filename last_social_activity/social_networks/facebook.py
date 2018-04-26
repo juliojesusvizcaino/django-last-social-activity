@@ -21,7 +21,7 @@ class FacebookReader(object):
 	# To get an ACCESS TOKEN use
 	# https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&client_secret=YOUR_APP_SECRET&grant_type=client_credentials
 
-	GET_POSTS_URL = 'https://graph.facebook.com/{0}/posts'
+	GET_POSTS_URL = 'https://graph.facebook.com/{0}/feed'
 
 	def __init__(self):
 		credentials = self._get_credentials()
